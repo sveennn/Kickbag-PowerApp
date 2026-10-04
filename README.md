@@ -25,6 +25,9 @@ Somit begann die Idee, die Strichliste abzuschaffen, zu digitalisieren und zu au
 Die Power App lässt sich einfach im Webbrowser als App installieren.
 Der Nutzer/Verpacker öffnet die Web-App neben dem Verpackungsfenster und kann den entsprechenden Knopf drücken.
 
+![description](images/kickbag1.png)
+![description](images/kickbag2.png)
+
 Es hat jeweils zwei Knöpfe pro Grösse.
 Einen zum Zählen und einen zum Löschen.
 Das UI habe ich so schlicht wie möglich erstellt, um eine klare Übersicht zu schaffen.
@@ -33,10 +36,16 @@ Drückt man nun den +1-Knopf von z. B. der Grösse "S", wird im Hintergrund ein 
 
 In dieser Excel-Datei landen alle Einträge vom aktuellen Tag.
 Grösse, Nutzer und Zeitstempel sind einsehbar für allfällige Rückschlüsse bei Fehlern.
+![description](images/kickbag3.png)
 
 Am Ende des Tages wird durch einen Power Automate Flow die komplette Liste gezählt und zur Übersicht in eine weitere Auswertungsliste eingetragen.
 
+![description](images/kickbag4.png)
+
 Die Tagesübersicht wird anschliessend gereinigt und unsere E-Commerce-Zentrale bekommt eine automatisierte Mail, in der zusammengefasst steht, welcher der drei Onlineshops pro Tag wie viele Kickbags von welcher Grösse versendet hat.
+
+![description](images/kickbag5.png)
+![description](images/kickbag6.png)
 
 ## Abschlussnotiz
 
